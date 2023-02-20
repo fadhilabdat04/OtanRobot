@@ -82,14 +82,14 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-*Yoo mek {} !*
-✪ Ini bot untuk manage ama musikan di grup lu pada [✨](https://telegra.ph/file/84406e4ebefbab4aad1a1.jpg)
+*Pa kabs nge {} !*
+✪ Ini bot untuk manage ama musik buat grup lu pada [✨](https://telegra.ph//file/8e4d2922fa48aff2be56d.jpg)
 ────────────────────────
 🐒 *Uptime:* `{}`
 🐒 `{}` *users, across* `{}` *chats.*
 ────────────────────────
-✪ Ketik aja tuh tombol kan bisa baca lu pada.
-✪ powered by @OtanCabul 🐒
+✪ Ga usah manja ye udah pada bisa baca kan? baca sendiri yee.
+✪ powered by @Arabnihnge 🐒
 ✪ Bantuan /Help
 """
 
@@ -115,7 +115,7 @@ Click on the button bellow to get description about specifics command."""
 
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project by contacting @SipalingOTAN \
+ You can support the project by contacting @Arabnihnge \
  Supporting isnt always financial! \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 
@@ -232,7 +232,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_text(
-            f"👋 Yoo, Aing {dispatcher.bot.first_name}. Nice to meet You.",
+            f"👋 Uyy, Gua {dispatcher.bot.first_name}. Nice to meet You.",
             parse_mode=ParseMode.HTML
        )
 
@@ -450,7 +450,7 @@ def emiko_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Otan", url="https://t.me/SipalingOTAN"),
+                    InlineKeyboardButton(text="Arab", url="https://t.me/Cehasiarab"),
 
                  ],
                  [
@@ -723,7 +723,7 @@ def donate(update: Update, context: CallbackContext):
             DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True
         )
 
-        if OWNER_ID != 5658910455:
+        if OWNER_ID != 1345594412:
             update.effective_message.reply_text(
                 "I'm free for everyone ❤️ If you wanna make me smile, just join"
                 "[My Channel]({})".format(DONATION_LINK),
@@ -772,7 +772,7 @@ def main():
         try:
             dispatcher.bot.sendMessage(
                 f"@{SUPPORT_CHAT}", 
-                "👋 𝗬𝗢, 𝗠𝗘𝗞 𝗜𝗗𝗨𝗣 𝗟𝗔𝗚𝗜 𝗡𝗜𝗖𝗛.",
+                "👋 YO, NGE UDAH AKTIF NIHH.",
                 parse_mode=ParseMode.MARKDOWN
             )
         except Unauthorized:
