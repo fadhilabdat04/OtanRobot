@@ -105,7 +105,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="🐒 Tambahkan Jadi Keluargamu 🐒", url=f"t.me/{bu}?startgroup=new"),
+            text="Tambahkan Jadi Babumu", url=f"t.me/{bu}?startgroup=new"),
     ],
 ]
 
@@ -424,14 +424,14 @@ def emiko_about_callback(update, context):
         )
     elif query.data == "emiko_support":
         query.message.edit_text(
-            text="*๏ Emiko support chats*"
+            text="*๏ SI ARAB support chats*"
             f"\nJoin My Support Group/Channel for see or report a problem on {dispatcher.bot.first_name}.",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Support", url="t.me/havingsexid"),
-                    InlineKeyboardButton(text="Updates", url="https://t.me/gbtnyaOtan"),
+                    InlineKeyboardButton(text="Support", url="https://t.me/+t5dVb7kwNDhkZGI1"),
+                    InlineKeyboardButton(text="Updates", url="https://t.me/Cehasiarab"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="emiko_"),
@@ -450,7 +450,7 @@ def emiko_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Arab", url="https://t.me/Cehasiarab"),
+                    InlineKeyboardButton(text="Arab", url="https://t.me/Arabnihnge"),
 
                  ],
                  [
