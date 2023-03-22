@@ -60,7 +60,7 @@ async def mentionall(event):
         if not chat_id in spam_chats:
             break
         usrnum += 1
-        usrtxt += f"🥵 [{usr.first_name}](tg://user?id={usr.id})\n"
+        usrtxt += f"⛔️ [{usr.first_name}](tg://user?id={usr.id})\n"
         if usrnum == 5:
             if mode == "text_on_cmd":
                 txt = f"{msg}\n\n{usrtxt}"
@@ -100,13 +100,13 @@ async def cancel_spam(event):
     if not is_admin:
         return await event.reply("__Only admins can execute this command!__")
     if not event.chat_id in spam_chats:
-        return await event.reply("__𝙉𝙂𝙂𝘼 𝘼𝘿𝘼 𝙏𝘼𝙂-𝘼𝙇𝙇𝘼𝙉 𝙋𝙐𝙆𝙄𝙄😑...__")
+        return await event.reply("__KAGAK ADA TAGALAN PUKI😑...__")
     else:
         try:
             spam_chats.remove(event.chat_id)
         except:
             pass
-        return await event.respond("__𝙐𝘿𝘼𝙃 𝙂𝘼 𝙅𝘼𝙇𝘼𝙉 𝙄𝙏𝙐 𝙉𝙂𝙀🙃.__")
+        return await event.respond("__UDAH BERENTI ITU NGE🙃.__")
 
 
 __mod_name__ = "Tag all"
