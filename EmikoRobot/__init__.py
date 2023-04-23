@@ -3,6 +3,7 @@ import logging
 import os
 import sys
 import json
+import spamwatch
 import asyncio
 import time
 import telegram.ext as tg
