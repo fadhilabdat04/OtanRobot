@@ -83,14 +83,14 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 *Pa kabs nge {} !*
-✪ Ini bot untuk manage ama musik buat grup lu pada [✨](https://telegra.ph//file/8e4d2922fa48aff2be56d.jpg)
+✅ Ini bot untuk manage ama musik buat grup lu pada [✨](https://telegra.ph//file/8fffe9f061a0bd1fe1c3f.jpg)
 ────────────────────────
-🐒 *Uptime:* `{}`
-🐒 `{}` *users, across* `{}` *chats.*
+💢 *Uptime:* `{}`
+💢 `{}` *users, across* `{}` *chats.*
 ────────────────────────
-✪ Ga usah manja ye udah pada bisa baca kan? baca sendiri yee.
-✪ powered by @Arabnihnge 🐒
-✪ Bantuan /Help
+✅ Ga usah manja ye udah pada bisa baca kan? baca sendiri yee.
+✅ powered by @Arabnihnge 💢
+✅ Bantuan /Help
 """
 
 buttons = [
@@ -430,8 +430,8 @@ def emiko_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Support", url="https://t.me/+t5dVb7kwNDhkZGI1"),
-                    InlineKeyboardButton(text="Updates", url="https://t.me/Cehasiarab"),
+                    InlineKeyboardButton(text="Support", url="https://t.me/SiArabSupport"),
+                    InlineKeyboardButton(text="Arab Store", url="https://t.me/SiArab_Store"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="emiko_"),
@@ -450,7 +450,7 @@ def emiko_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Arab", url="https://t.me/Arabnihnge"),
+                    InlineKeyboardButton(text="Own This Bot", url="https://t.me/Arabnihnge"),
 
                  ],
                  [
