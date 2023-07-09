@@ -29,8 +29,8 @@ class Config(object):
     ERROR_LOG =-1001803314750
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = "postgres://cmumeqmp:s_gXyCS_rRIXftIQKoqKRush_NeRvw4d@rosie.db.elephantsql.com/cmumeqmp"  # needed for any database modules
-    MONGO_DB_URI = "mongodb+srv://fadhilabdat:fadhil123@cluster0.jtimqg8.mongodb.net/?retryWrites=true&w=majority"  # needed for any database modules
+    SQLALCHEMY_DATABASE_URI = "postgres://vcqlesnn:HI5EmqtJkxODghJ52Sozq8WRoPzsDThR@arjuna.db.elephantsql.com/vcqlesnn"  # needed for any database modules
+    MONGO_DB_URI = "mongodb+srv://fadhilabdat:fadhil123@cluster0.wnpfjnd.mongodb.net/?retryWrites=true&w=majority"  # needed for any database modules
     ARQ_API_URL = "0"
     ARQ_API_KEY = "PBXFMD-NWMWEN-FMFLQP-JBGTTF-ARQ"
     BOT_API_URL = "https://api.telegram.org/bot"
@@ -80,10 +80,10 @@ class Config(object):
     LASTFM_API_KEY = "yeah"
     CF_API_KEY = "jk"
     BL_CHATS = []  # List of groups that you want blacklisted.
-    SESSION_STRING = "1BVtsOHABu0iJ8KoYBi9q30mlboZU-v1rHd6F38EyB5Crd56pUmbFRp-TyRYKcNpVvPE5XlW5P9Ggmk55kfGaGPD3Z6MEZfuc0Vd6ntoX9nYCWUvJD2Wsr5BMgEYMHfeuwI2CHNgeUFRfG1Rhg50PrXQPvkzNvN9n8v7qSTJSjDA8wDEBYF5F_x4w5xsUH-isbeP35h3-iG0AkQkODVOzY05Cj1Mz6LmUstHOGNHfH_Kt7Z3bPG4hWxE69sI0pAQjvYL5crAAzRACcO7qMrQLmbutxOOQ4KlxGSykkxj7Le4pbwQFQ6lK4gnqoQisiocfJhM2rMeR1_yE9I1a-gTPKxgIRet8HvU="
-    STRING_SESSION = "1BVtsOHABu0iJ8KoYBi9q30mlboZU-v1rHd6F38EyB5Crd56pUmbFRp-TyRYKcNpVvPE5XlW5P9Ggmk55kfGaGPD3Z6MEZfuc0Vd6ntoX9nYCWUvJD2Wsr5BMgEYMHfeuwI2CHNgeUFRfG1Rhg50PrXQPvkzNvN9n8v7qSTJSjDA8wDEBYF5F_x4w5xsUH-isbeP35h3-iG0AkQkODVOzY05Cj1Mz6LmUstHOGNHfH_Kt7Z3bPG4hWxE69sI0pAQjvYL5crAAzRACcO7qMrQLmbutxOOQ4KlxGSykkxj7Le4pbwQFQ6lK4gnqoQisiocfJhM2rMeR1_yE9I1a-gTPKxgIRet8HvU="
+    SESSION_STRING = "BQDEMaMAS3a00Rnk4CBF-_0cgM7ra7Mfh33l8YJ8jpQWlzGMn_PtfVoM8MgrL1fgmd8e-EKRQnJGMUmNMXU5lcU33iTK4puYxqjoC8qBsiTeefkbSSX_QFbRPRsetn4dbftiHFlPorNMvZfDUTObYwPGlqigpvktcPlGdCERmUZ38FQohQ9cebMaW8UzHXe_nqItxP9u7Wn1Zd_1fWZIoVe8g5v3o5R6azBVCFwsQ8A0ktUePxe34URGGg36_RFvZJ-BEEeTNRTS1Dq36J7porzUnp6auCh3N0jf8Ul95eKaPkdkHyDz1i4-yc0iKgX_Q2DJux-EmQoFDDk2NQtv7uYKkEYhewAAAABQNCQsAA"
+    STRING_SESSION = "BQDEMaMAS3a00Rnk4CBF-_0cgM7ra7Mfh33l8YJ8jpQWlzGMn_PtfVoM8MgrL1fgmd8e-EKRQnJGMUmNMXU5lcU33iTK4puYxqjoC8qBsiTeefkbSSX_QFbRPRsetn4dbftiHFlPorNMvZfDUTObYwPGlqigpvktcPlGdCERmUZ38FQohQ9cebMaW8UzHXe_nqItxP9u7Wn1Zd_1fWZIoVe8g5v3o5R6azBVCFwsQ8A0ktUePxe34URGGg36_RFvZJ-BEEeTNRTS1Dq36J7porzUnp6auCh3N0jf8Ul95eKaPkdkHyDz1i4-yc0iKgX_Q2DJux-EmQoFDDk2NQtv7uYKkEYhewAAAABQNCQsAA"
     MONGO_PORT = 27017
-    MONGO_DB = "Emiko"
+    MONGO_DB = "fadhilabdat"
 
 class Production(Config):
     LOGGER = True
