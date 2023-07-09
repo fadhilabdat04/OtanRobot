@@ -19,7 +19,7 @@ class Config(object):
     OPENWEATHERMAP_ID = 22322
     OWNER_USERNAME = "Arabnihnge"
     BOT_USERNAME = "BabuArabRobot"
-    SUPPORT_CHAT = "SiArab_Support"  # Your own group for support, do not add the @
+    SUPPORT_CHAT = "SiArab_Store"  # Your own group for support, do not add the @
     JOIN_LOGGER = (
         -1001749511943
     )  # Prints any new group the bot is added to, prints just the name and ID.
@@ -46,7 +46,7 @@ class Config(object):
     ##List of id's -  (not usernames) for users which have sudo access to the bot.
     DRAGONS = get_user_list("elevated_users.json", "1345594412")
     ##List of id's - (not usernames) for developers who will have the same perms as the owner
-    DEV_USERS = get_user_list("elevated_users.json", "1345594412")
+    DEV_USERS = get_user_list("elevated_users.json", "")
     ##List of id's (not usernames) for users which are allowed to gban, but can also be banned.
     DEMONS = get_user_list("elevated_users.json", "1345594412")
     # List of id's (not usernames) for users which WONT be banned/kicked by the bot.
