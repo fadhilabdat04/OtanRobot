@@ -21,12 +21,12 @@ class Config(object):
     BOT_USERNAME = "BabuArabRobot"
     SUPPORT_CHAT = "SiArab_Support"  # Your own group for support, do not add the @
     JOIN_LOGGER = (
-        -1001829610428
+        -1001749511943
     )  # Prints any new group the bot is added to, prints just the name and ID.
     EVENT_LOGS = (
-        -1001749511943
+        -1001911623983
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
-    ERROR_LOG = -1001511989554
+    ERROR_LOG =-1001803314750
 
     # RECOMMENDED
     SQLALCHEMY_DATABASE_URI = "postgres://cmumeqmp:s_gXyCS_rRIXftIQKoqKRush_NeRvw4d@rosie.db.elephantsql.com/cmumeqmp"  # needed for any database modules
