@@ -184,14 +184,14 @@ def wall(update: Update, context: CallbackContext):
 __help__ = """
 *Available commands:*
 
-❂ /markdownhelp*:* quick summary of how markdown works in telegram - can only be called in private chats
-❂ /paste*:* Saves replied content to `nekobin.com` and replies with a url
-❂ /react*:* Reacts with a random reaction 
-❂ /ud <word>*:* Type the word or expression you want to search use
-❂ /reverse*:* Does a reverse image search of the media which it was replied to.
-❂ /wiki <query>*:* wikipedia your query
-❂ /wall <query>*:* get a wallpaper from wall.alphacoders.com
-❂ /cash*:* currency converter
+ᱵ /markdownhelp*:* quick summary of how markdown works in telegram - can only be called in private chats
+ᱵ /paste*:* Saves replied content to `nekobin.com` and replies with a url
+ᱵ /react*:* Reacts with a random reaction 
+ᱵ /ud <word>*:* Type the word or expression you want to search use
+ᱵ /reverse*:* Does a reverse image search of the media which it was replied to.
+ᱵ /wiki <query>*:* wikipedia your query
+ᱵ /wall <query>*:* get a wallpaper from wall.alphacoders.com
+ᱵ /cash*:* currency converter
  Example:
  `/cash 1 USD INR`  
       _OR_
@@ -199,9 +199,9 @@ __help__ = """
  Output: `1.0 USD = 75.505 INR`
 
 *Music Modules:*
-❂ /video or /vsong (query): download video from youtube
-❂ /music or /song (query): download song from yt servers. (API BASED)
-❂ /lyrics (song name) : This plugin searches for song lyrics with song name.
+ᱵ /video or /vsong (query): download video from youtube
+ᱵ /music or /song (query): download song from yt servers. (API BASED)
+ᱵ /lyrics (song name) : This plugin searches for song lyrics with song name.
 """
 
 ECHO_HANDLER = DisableAbleCommandHandler(
