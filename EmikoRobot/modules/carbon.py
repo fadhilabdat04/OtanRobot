@@ -30,7 +30,7 @@ MEMEK = "https://te.legra.ph/file/d2f257710e964cd8aa0db.jpg"
 async def repo(_, message):
     await message.reply_photo(
         photo=MEMEK,
-        caption=f"""ᱵ **Yoo mekk Aing Arab X Robot** 
+        caption=f"""ᱵ **Yoo ngee ini Arab X Robot** 
 
 **Owner repo : [SI ARAB](https://t.me/Dhilnihnge)**
 **Python Version :** `{y()}`
@@ -44,9 +44,9 @@ async def repo(_, message):
             [
                 [
                     InlineKeyboardButton(
-                        "Repo", url="https://github.com"), 
+                        "Store Si Arab", url="https://t.me/JasaSiArab"), 
                     InlineKeyboardButton(
-                        "Support", url="https://t.me/gbtnyaOtan")
+                        "Support", url="https://t.me/SiArabGroup")
                 ]
             ]
         )
