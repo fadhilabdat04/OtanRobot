@@ -318,15 +318,15 @@ if is_module_loaded(FILENAME):
 
 
     __help__ = """
-❂ /cmds*:* check the current status of disabled commands
+ᱵ /cmds*:* check the current status of disabled commands
 
 *Admins only:*
 
-❂ /enable <cmd name>*:* enable that command
-❂ /disable <cmd name>*:* disable that command
-❂ /enablemodule <module name>*:* enable all commands in that module
-❂ /disablemodule <module name>*:* disable all commands in that module
-❂ /listcmds*:* list all possible toggleable commands
+ᱵ /enable <cmd name>*:* enable that command
+ᱵ /disable <cmd name>*:* disable that command
+ᱵ /enablemodule <module name>*:* enable all commands in that module
+ᱵ /disablemodule <module name>*:* disable all commands in that module
+ᱵ /listcmds*:* list all possible toggleable commands
 """
 
     DISABLE_HANDLER = CommandHandler("disable", disable, run_async=True)
