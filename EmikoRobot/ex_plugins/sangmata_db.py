@@ -1,4 +1,4 @@
-from database import dbname
+from EmikoRobot.mongo import db
 
 matadb = dbname.sangmata
 
